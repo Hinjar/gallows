@@ -1,0 +1,60 @@
+.item{
+    padding: 20px 25px;
+    margin: 20px;
+    background-color: #dddcdc;
+    margin: 20px;
+    transition: all .4s;
+    text-transform: uppercase;
+}
+
+.item-word{
+    padding: 20px 25px;
+    background-color: #dddcdc;
+    margin: 20px;
+    min-width: 8px;
+    min-height: 18px;
+    text-transform: uppercase;
+}
+
+.incorrect{
+
+    background-color: rgb(224, 67, 67);
+    color: #fff;
+}
+
+.correct{
+
+    background-color: green;
+    color: #fff;
+}
+
+
+.flex{
+    display: flex;
+  justify-content: center;
+
+}
+
+.container{
+    margin: 0 auto;
+}
+
+.under{
+    text-align: center;
+}
+
+.words{
+    padding-top: 150px;
+}
+
+.fail{
+    display: none;
+    color: rgb(224, 67, 67);
+    text-align: center;
+}
+
+.succes{
+    display: none;
+    color: green;
+    text-align: center;
+}
